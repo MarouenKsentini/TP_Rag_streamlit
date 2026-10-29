@@ -1,0 +1,19 @@
+# Secrets — ne jamais committer
+.env
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Index Chroma persistant (si persist_directory est activé un jour)
+.chroma/
+
+# OS / éditeurs
+.DS_Store
+.idea/
+.vscode/
